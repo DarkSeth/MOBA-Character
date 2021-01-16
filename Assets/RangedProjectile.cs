@@ -32,7 +32,6 @@ public class RangedProjectile : MonoBehaviour
                 {
                     if(targetType == "Minion")
                     {
-                        target.GetComponent<Stats>().health -= damage;
                         stopProjectile = true;
                         Destroy(gameObject);
                     }

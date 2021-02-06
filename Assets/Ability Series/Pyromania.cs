@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class Fireball : MonoBehaviour
+public class Pyromania : MonoBehaviour
 {
 
     //In Script Stuff
@@ -43,6 +43,7 @@ public class Fireball : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+
         FireballAbility();
     }
 
